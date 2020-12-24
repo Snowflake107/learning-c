@@ -1,3 +1,5 @@
+// Program to find square root of the given number
+
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
