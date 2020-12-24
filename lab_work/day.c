@@ -10,9 +10,13 @@ int main() {
     printf("\nEnter the number of days: ");
     scanf("%d", &days);
 
-    int year = 365 / days;
+    int year = days / 365;
 
-    float months = days / 30.417;
+    days = days % 365;
+
+    float months = days / 30;
+
+    days = days % 30;
 
     printf("\n\nDays: %d\nMonths: %.0f\nYear: %d\n", days, months, year);
 
