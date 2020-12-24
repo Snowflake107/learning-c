@@ -41,7 +41,11 @@ int main() {
     cen = fahtocel(fah);
     kel = fahtokel(fah);
 
+    char *ap = "\n------------------------------\n";
+
+    printf("%s", ap);
     printf("Celsius: %f\nFahrenheit: %f\nKelvin: %f", cen, fah, kel);
+    printf("%s", ap);
 
     getch();
 
