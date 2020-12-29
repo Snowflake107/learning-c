@@ -5,7 +5,7 @@ char *prompt(char *question) {
     char *response;
 
     printf("%s", question);
-    scanf("%s", response);
+    scanf("%[^\n]s", response);
 
     return response;
 }
